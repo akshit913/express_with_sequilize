@@ -1,0 +1,11 @@
+create database mytestdb;
+create user myser identified by 'mypass';
+use mytestdb;
+grant all privileges on mytestdb.* to myuser;
+flush privileges;
+mysql -u myuser -p
+enter password
+
+
+auto increment for ids to increment it automatically.
+auto increment counts from the last value inserted in the table.
